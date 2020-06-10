@@ -1,0 +1,32 @@
+body {
+    background: #022534;
+    font-family: sans-serif;
+}
+
+body > div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 400px;
+    box-sizing: border-box;
+    background: #094f6e;
+    text-align: center;
+    color: #e4f5ff;
+    font-size: 20px;
+}
+
+body > div > div > div > div:nth-child(3){
+    padding: 20px;
+}
+
+
+body > div > form{
+    display: block;
+}
+
+body > div > form > label{
+    display: block;
+    line-height: 20px;
+}
